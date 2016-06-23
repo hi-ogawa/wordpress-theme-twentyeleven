@@ -69,12 +69,9 @@ footer, header, hgroup, menu, nav, section {
 /* =Structure
 ----------------------------------------------- */
 
-body {
-	padding: 0 2em;
-}
 #page {
-	margin: 2em auto;
-	max-width: 1000px;
+	margin: 0em auto;
+	max-width: 1300px;
 }
 #branding hgroup {
 	margin: 0 7.6%;
