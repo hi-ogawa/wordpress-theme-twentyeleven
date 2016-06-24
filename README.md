@@ -7,6 +7,14 @@ $ cd twentyeleven
 $ git init && git add . && git ci -m 'clone twentyeleven'
 ```
 
+### Features
+
+- Mathjax ([commit](https://github.com/hi-ogawa/wordpress-theme-twentyeleven/commit/0809f054837d389365bb4800a58609a3b2d79ea3)): https://www.mathjax.org/
+- Google code prettify ([commit](https://github.com/hi-ogawa/wordpress-theme-twentyeleven/commit/7c7326cb02bf36eb6b90a36646fcb00713ca5b99)): https://github.com/google/code-prettify, 
+- Ahrefy ([commit](https://github.com/hi-ogawa/wordpress-theme-twentyeleven/commit/820bd75ef5b73bdd0ee913781ef7e73c2de5a361)): https://github.com/hi-ogawa/ahrefy, 
+- and some style changes
+
+
 ### Development
 
 Tools version:
