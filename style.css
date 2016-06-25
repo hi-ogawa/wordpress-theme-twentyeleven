@@ -72,6 +72,7 @@ footer, header, hgroup, menu, nav, section {
 #page {
 	margin: 0em auto;
 	max-width: 1300px;
+	overflow-x: hidden;
 }
 #branding hgroup {
 	margin: 0 7.6%;
