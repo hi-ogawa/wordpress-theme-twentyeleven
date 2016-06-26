@@ -95,34 +95,6 @@ footer, header, hgroup, menu, nav, section {
 	width: 18.8%;
 }
 
-/* Singular */
-.singular #primary {
-	margin: 0;
-}
-.singular #content,
-.left-sidebar.singular #content {
-	margin: 0 7.6%;
-	position: relative;
-	width: auto;
-}
-.singular .entry-header,
-.singular .entry-content,
-.singular footer.entry-meta,
-.singular #comments-title {
-	margin: 0 auto;
-	width: 68.9%;
-}
-
-/* Attachments */
-.singular .image-attachment .entry-content {
-	margin: 0 auto;
-	width: auto;
-}
-.singular .image-attachment .entry-description {
-	margin: 0 auto;
-	width: 68.9%;
-}
-
 /* Showcase */
 .page-template-showcase-php #primary,
 .left-sidebar.page-template-showcase-php #primary {
@@ -244,32 +216,6 @@ footer, header, hgroup, menu, nav, section {
 }
 .one-column article.feature-image.small .entry-summary a {
 	left: -9%;
-}
-/* Remove the margin on singular articles */
-.one-column.singular .entry-header,
-.one-column.singular .entry-content,
-.one-column.singular footer.entry-meta,
-.one-column.singular #comments-title {
-	width: 100%;
-}
-/* Simplify the pullquotes and pull styles */
-.one-column.singular blockquote.pull {
-	margin: 0 0 1.625em;
-}
-.one-column.singular .pull.alignleft {
-	margin: 0 1.625em 0 0;
-}
-.one-column.singular .pull.alignright {
-	margin: 0 0 0 1.625em;
-}
-.one-column.singular .entry-meta .edit-link a {
-	position: absolute;
-	left: 0;
-	top: 40px;
-}
-.one-column.singular #author-info {
-	margin: 2.2em -8.8% 0;
-	padding: 20px 8.8%;
 }
 /* Make sure we have room for our comment avatars */
 .one-column .commentlist > li.comment {
@@ -1013,13 +959,6 @@ object {
 	font-size: 12px;
 	overflow: hidden;
 }
-.singular #author-info {
-	background: #f9f9f9;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
-	margin: 2.2em -35.6% 0 -35.4%;
-	padding: 20px 35.4%;
-}
 .archive #author-info {
 	border-bottom: 1px solid #ddd;
 	margin: 0 0 2.2em;
@@ -1110,30 +1049,6 @@ article.format-status .entry-content {
 	padding-top: 0;
 }
 
-/* Singular content styles for Posts and Pages */
-.singular .hentry {
-	border-bottom: none;
-	padding: 4.875em 0 0;
-	position: relative;
-}
-.singular.page .hentry {
-	padding: 3.5em 0 0;
-}
-.singular .entry-title {
-	color: #000;
-	font-size: 36px;
-	font-weight: bold;
-	line-height: 48px;
-}
-.singular .entry-title,
-.singular .entry-header .entry-meta {
-	padding-right: 0;
-}
-.singular .entry-header .entry-meta {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
 blockquote.pull {
 	font-size: 21px;
 	font-weight: bold;
@@ -1141,15 +1056,9 @@ blockquote.pull {
 	margin: 0 0 1.625em;
 	text-align: center;
 }
-.singular blockquote.pull {
-	margin: 0 -22.25% 1.625em;
-}
 .pull.alignleft {
 	margin: 0 1.625em 0 0;
 	text-align: right;
-}
-.singular .pull.alignleft {
-	margin: 0 1.625em 0 -22.25%;
 }
 .pull.alignright {
 	margin: 0 0 0 1.625em;
@@ -1158,20 +1067,6 @@ blockquote.pull {
 blockquote.pull.alignleft,
 blockquote.pull.alignright {
 	width: 33%;
-}
-.singular .pull.alignright {
-	margin: 0 -22.25% 0 1.625em;
-}
-.singular blockquote.pull.alignleft,
-.singular blockquote.pull.alignright {
-	width: 33%;
-}
-.singular .entry-meta .edit-link a {
-	bottom: auto;
-	left: 50px;
-	position: absolute;
-	right: auto;
-	top: 80px;
 }
 
 
@@ -1182,14 +1077,8 @@ blockquote.pull.alignright {
 .format-aside .entry-header .comments-link {
 	display: none;
 }
-.singular .format-aside .entry-title {
-	display: block;
-}
 .format-aside .entry-content {
 	padding: 0;
-}
-.singular .format-aside .entry-content {
-	padding: 1.625em 0 0;
 }
 
 
@@ -1200,14 +1089,8 @@ blockquote.pull.alignright {
 .format-link .entry-header .comments-link {
 	display: none;
 }
-.singular .format-link .entry-title {
-	display: block;
-}
 .format-link .entry-content {
 	padding: 0;
-}
-.singular .format-link .entry-content {
-	padding: 1.625em 0 0;
 }
 
 
@@ -1229,14 +1112,8 @@ blockquote.pull.alignright {
 .format-status .entry-header .comments-link {
 	display: none;
 }
-.singular .format-status .entry-title {
-	display: block;
-}
 .format-status .entry-content {
 	padding: 0;
-}
-.singular .format-status .entry-content {
-	padding: 1.625em 0 0;
 }
 .format-status img.avatar {
 	-moz-border-radius: 3px;
@@ -2387,32 +2264,6 @@ p.comment-form-comment {
 		padding-right: 20px;
 		width: auto;
 	}
-	/* Remove the margin on singular articles */
-	.singular .entry-header,
-	.singular .entry-content,
-	.singular footer.entry-meta,
-	.singular #comments-title {
-		width: 100%;
-	}
-	/* Simplify the pullquotes and pull styles */
-	.singular blockquote.pull {
-		margin: 0 0 1.625em;
-	}
-	.singular .pull.alignleft {
-		margin: 0 1.625em 0 0;
-	}
-	.singular .pull.alignright {
-		margin: 0 0 0 1.625em;
-	}
-	.singular .entry-meta .edit-link a {
-		left: 0;
-		position: absolute;
-		top: 40px;
-	}
-	.singular #author-info {
-		margin: 2.2em -8.8% 0;
-		padding: 20px 8.8%;
-	}
 	/* Make sure we have room for our comment avatars */
 	.commentlist {
 		width: 100%;
@@ -2465,9 +2316,6 @@ p.comment-form-comment {
 	.featured-post .entry-title {
 		font-size: 14px;
 	}
-	.singular .entry-title {
-		font-size: 28px;
-	}
 	.entry-meta {
 		font-size: 12px;
 	}
@@ -2502,17 +2350,7 @@ p.comment-form-comment {
 		display: block;
 		position: static;
 	}
-	.singular .hentry {
-		padding: 1.625em 0 0;
-	}
-	.singular.page .hentry {
-		padding: 1.625em 0 0;
-	}
-	.singular .entry-header .entry-meta,
-	.singular .entry-header .entry-format,
-	.singular .entry-meta .edit-link a {
-		position: static;
-	}
+
 	/* Talking avatars take up too much room at this size */
 	.commentlist > li.comment,
 	.commentlist > li.pingback {
@@ -2625,31 +2463,13 @@ p.comment-form-comment {
 		margin: 0;
 		width: auto;
 	}
-	.singular #content {
-		margin: 0;
-		width: 100%;
-	}
-	.singular .entry-header .entry-meta {
-		position: static;
-	}
 	.entry-meta .edit-link a {
 		display: none;
 	}
 	#content nav {
 		display: none;
 	}
-	.singular .entry-header,
-	.singular .entry-content,
-	.singular footer.entry-meta,
-	.singular #comments-title {
-		margin: 0;
-		width: 100%;
-	}
-	.singular .hentry {
-		padding: 0;
-	}
-	.entry-title,
-	.singular .entry-title {
+	.entry-title {
 		font-size: 21pt;
 	}
 	.entry-meta {
@@ -2660,13 +2480,6 @@ p.comment-form-comment {
 	}
 	.page-link {
 		display: none;
-	}
-	.singular #author-info {
-		background: none;
-		border-bottom: none;
-		border-top: none;
-		margin: 2.2em 0 0;
-		padding: 0;
 	}
 	#respond {
 		display: none;
