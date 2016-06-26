@@ -7,6 +7,7 @@ services:
       WORDPRESS_DB_PASSWORD: whatever
     volumes:
       - ./:/var/www/html/wp-content/themes/twentyeleven-development
+      - wordpress_data:/var/www/html
     ports:
       - 6789:80
 
@@ -18,4 +19,5 @@ services:
       - mysql_data:/var/lib/mysql
 
 volumes:
+  wordpress_data:
   mysql_data:
